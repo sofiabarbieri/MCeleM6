@@ -1,0 +1,37 @@
+MEXpStarting simulation 
+N. particles 1000000
+bound True
+plk1 True
+threeD True
+slice True
+sliceDepth 5.0
+setting file sett1_20
+setting file sett1_20
+v fast MEXp 4.9
+v slow MEXp 0.45
+v plk1 5.3
+plk1_to_MEXp 0.05
+initial_slow 0.7
+initial_fast 0.3
+k_fast_slow 0.005
+k_slow_fast_low 0.0005
+k_slow_fast_high 0.00275
+k_plk1_attach_to_free 0.1
+plk1_attach_to_mex_fast 1.0
+plk1_attach_to_mex_slow 1.0
+plk1_to_mex_multiplicator 1000.0
+plk1_detached_when_MEXp_changes 1.0
+plk1_delay_start_time 350.0
+plk1_delay_end_time 950.0
+log k MEXp logs/01_07_2021_11_39_02/log_k_MEXp.txt
+log k plk1 logs/01_07_2021_11_39_02/log_k_plk1.txt
+log profile MEXp logs/01_07_2021_11_39_02/log_profileAP_MEXp.txt
+log profile plk1 logs/01_07_2021_11_39_02/log_profileAP_plk1.txt
+log profile ratio slow/fast logs/01_07_2021_11_39_02/log_MEXp_ratio_slow_fast.txt
+log v MEXp logs/01_07_2021_11_39_02/log_v_MEXp.txt
+log v plk1 logs/01_07_2021_11_39_02/log_v_plk1.txt
+log conc id0 MEXp logs/01_07_2021_11_39_02/conc_id0_MEXp.txt
+log conc id1 MEXp logs/01_07_2021_11_39_02/conc_id1_MEXp.txt
+log conc id0 plk1 logs/01_07_2021_11_39_02/conc_id0_plk1.txt
+log conc id1 plk1 logs/01_07_2021_11_39_02/conc_id1_plk1.txt
+log conc id2 plk1logs/01_07_2021_11_39_02/conc_id2_plk1.txt

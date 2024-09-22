@@ -1,0 +1,17 @@
+v_MEXp_fast:	1.96
+v_MEXp_slow:	0.04
+v_plk1:	5.3
+not_used_kplk1:	0.05
+sliceDepth:	5
+initial_percentage_MEXpslow:	0.76
+initial_percentage_MEXpfast:	0.34
+k_Phosphatase_fast_slow:	0.0050
+k_Kinase_slow_fast_lower:	0.0005
+k_Kinase_slow_fast_upper:	0.00275
+k_disassociation_plk1_to_free:	0.1
+boolean_plk1_to_slow:	1
+boolean_plk1_to_fast:	1
+k multiplicator:	1000
+plk1_detach_MEXp_change:	1
+plk1_delay_start_time:	350
+plk1_delay_end_time:	950
