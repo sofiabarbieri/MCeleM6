@@ -48,7 +48,7 @@ $ module load foss/2019b ROOT Boost/1.71.0 Boost.Python/1.71.0 matplotlib/3.1.1-
 ```
 - Cloning and making the files
 ```
-$ git clone https://github.com/Ratpenk40/MCeleM6.git
+$ git clone https://github.com/sofiabarbieri/MCeleM6.git
 
 $ mkdir install
 $ mkdir build
